@@ -1,0 +1,10 @@
+apply plugin: "elasticsearch.esplugin"
+
+esplugin {
+    name "analyzer"
+    description "my third sample simple analyzer plugin"
+    classname "com.elasticsearch.analyzer.ExampleAnalyzerPlugin"
+    // licenseFile rootProject.file('SSPL-1.0+ELASTIC-LICENSE-2.0.txt')
+    // noticeFile rootProject.file('NOTICE.txt')
+}
+
