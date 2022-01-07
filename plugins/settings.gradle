@@ -1,0 +1,3 @@
+rootDir.listFiles().findAll { it.directory && new File(it, 'build.gradle').exists() }.each { subDir ->
+  include ":${subDir.name}"
+}
