@@ -1,0 +1,10 @@
+apply plugin: "elasticsearch.esplugin"
+
+esplugin {
+    name "resthandler"
+    description "my first sample simple resthandler plugin"
+    classname "com.elasticsearch.resthandler.ExampleRestHandlerPlugin"
+    // licenseFile rootProject.file('SSPL-1.0+ELASTIC-LICENSE-2.0.txt')
+    // noticeFile rootProject.file('NOTICE.txt')
+}
+
