@@ -1,0 +1,9 @@
+apply plugin: "elasticsearch.esplugin"
+
+esplugin {
+    name "emdpoint"
+    description "my second sample simple endpoint plugin"
+    classname "com.elasticsearch.endpoint.ExampleEndpointPlugin"
+    // licenseFile rootProject.file('SSPL-1.0+ELASTIC-LICENSE-2.0.txt')
+    // noticeFile rootProject.file('NOTICE.txt')
+}
